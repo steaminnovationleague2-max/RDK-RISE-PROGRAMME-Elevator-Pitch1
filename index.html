@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDK RISE PROGRAMME - Elevator Pitch</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+
+    <h1>RDK RISE PROGRAMME</h1>
+
+    <h2>Elevator Pitch</h2>
+
+</header>
+
+<div class="search-box">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="🔍 Search Student..."
+        onkeyup="searchStudent()">
+
+</div>
+
+<div id="studentList" class="student-list">
+
+<div class="student-card" onclick="playVideo('vaibhav.mp4','vaibhav')">vaibhav</div>
+
+<div class="student-card" onclick="playVideo('Namish.mp4','Namish')">Namish</div>
+
+<div class="student-card" onclick="playVideo('nehchalpreetkaur.mp4','nehchal')">nehchal</div>
+
+<div class="student-card" onclick="playVideo('lisha.mp4','lisha')">lisha</div>
+
+<div class="student-card" onclick="playVideo('navkiran.mp4','navkiran')">navkiran</div>
+
+<div class="student-card" onclick="playVideo('saanvi.mp4','saanvi')">saanvi</div>
+
+<div class="student-card" onclick="playVideo('avneet.mp4','avneet')">avneet</div>
+
+<div class="student-card" onclick="playVideo('harleen.mp4','harleen')">harleen</div>
+
+<div class="student-card" onclick="playVideo('manpreet9f.mp4','9F manpreet')">9F manpreet</div>
+
+<div class="student-card" onclick="playVideo('rehmatpreet.mp4','rehmat preet')">rehmat preet</div>
+
+<div class="student-card" onclick="playVideo('manuleen.mp4','manuleen')">manuleen</div>
+
+<div class="student-card" onclick="playVideo('manpreet.mp4','manpreet')">manpreet</div>
+
+<div class="student-card" onclick="playVideo('ananya.mp4','ananya')">ananya</div>
+
+<div class="student-card" onclick="playVideo('pushti.mp4','pushti')">pushti</div>
+
+<div class="student-card" onclick="playVideo('abhijot.mp4','abhijot')">abhijot</div>
+
+<div class="student-card" onclick="playVideo('prince.mp4','prince')">prince</div>
+
+<div class="student-card" onclick="playVideo('harsirat.mp4','harsirat')">harsirat</div>
+
+<div class="student-card" onclick="playVideo('arshiya.mp4','arshiya')">arshiya</div>
+
+<div class="student-card" onclick="playVideo('rehatpreet.mp4','rehatpreet')">rehatpreet</div>
+
+<div class="student-card" onclick="playVideo('tanvi.mp4','tanvi')">tanvi</div>
+
+<div class="student-card" onclick="playVideo('ridhima.mp4','ridhima')">ridhima</div>
+
+<div class="student-card" onclick="playVideo('mansirat.mp4','mansirat')">mansirat</div>
+
+<div class="student-card" onclick="playVideo('khushjot.mp4','khushjot')">khushjot</div>
+
+<div class="student-card" onclick="playVideo('jasleen.mp4','jasleen')">jasleen</div>
+
+<div class="student-card" onclick="playVideo('apsarajit.mp4','apsarajit')">apsarajit</div>
+
+<div class="student-card" onclick="playVideo('rishabh.mp4','rishabh')">rishabh</div>
+
+<div class="student-card" onclick="playVideo('ansh.mp4','ansh')">ansh</div>
+
+<div class="student-card" onclick="playVideo('rydham.mp4','rydham')">rydham</div>
+
+<div class="student-card" onclick="playVideo('gurleen.mp4','gurleen')">gurleen</div>
+
+<div class="student-card" onclick="playVideo('saksham.mp4','saksham')">saksham</div>
+
+<div class="student-card" onclick="playVideo('ekamjot.mp4','ekamjot')">ekamjot</div>
+
+<div class="student-card" onclick="playVideo('gurmanpreet.mp4','gurman')">gurman</div>
+
+<div class="student-card" onclick="playVideo('mukul.mp4','mukul')">mukul</div>
+
+<div class="student-card" onclick="playVideo('mehul.mp4','mehul')">mehul</div>
+
+<div class="student-card" onclick="playVideo('nikhil.mp4','nikhil')">nikhil</div>
+
+<div class="student-card" onclick="playVideo('smriti.mp4','smriti')">smriti</div>
+
+<div class="student-card" onclick="playVideo('nandika.mp4','nandika')">nandika</div>
+
+<div class="student-card" onclick="playVideo('kavya.mp4','kavya')">kavya</div>
+
+<div class="student-card" onclick="playVideo('ronit.mp4','ronit')">ronit</div>
+
+<div class="student-card" onclick="playVideo('shubampreet.mp4','shubampreet')">shubampreet</div>
+
+<div class="student-card" onclick="playVideo('surkhpartap.mp4','surkhpartap')">surkhpartap</div>
+
+<div class="student-card" onclick="playVideo('ridhamohri.mp4','ridham ohri')">ridham ohri</div>
+
+<div class="student-card" onclick="playVideo('anchpreet.mp4','anch preet')">anch preet</div>
+
+<div class="student-card" onclick="playVideo('manyata.mp4','manyata')">manyata</div>
+
+<div class="student-card" onclick="playVideo('moulik.mp4','moulik')">moulik</div>
+
+</div>
+
+<div id="videoContainer" class="video-container" style="display:none;">
+
+<button class="back-btn" onclick="goBack()">⬅ Back</button>
+
+<h2 id="studentName"></h2>
+
+<video id="studentVideo" controls controlsList="nodownload" width="100%">
+
+<source id="videoSource" src="">
+
+</video>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
